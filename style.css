@@ -1,0 +1,76 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #d8cfc4;
+    color: black;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+h1 {
+    text-align: center;
+    font-family: 'Press Start 2P', monospace;
+}
+
+#word-display {
+    margin-top: 20px;
+    font-size: 30px;
+    letter-spacing: 12px;
+    font-family: 'Press Start 2P', monospace;
+}
+
+#guesses {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-family: 'Press Start 2P', monospace;
+}
+
+#input-area {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#guessInput {
+    width: 100px;
+    height: 40px;
+    font-size: 13px;
+    padding: 8px;
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Press Start 2P', monospace;
+    image-rendering: pixelated;
+}
+
+button {
+    height: 40px;
+    padding: 8px 12px;
+    font-size: 13px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+    font-family: 'Press Start 2P', monospace;
+    image-rendering: pixelated;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+#hangman {
+    width: 580px;
+    height: auto;
+    image-rendering: pixelated;
+}

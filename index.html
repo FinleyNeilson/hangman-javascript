@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>
+        Hangman
+    </h1>
+
+    <img id="hangman" src="assets/hangman0.png">
+    <div id="word-display">_ _ _ _ _</div>
+    <div id="guesses">Guesses: </div>
+    <div id="input-area">
+        <input type="text" id="guessInput" maxlength="1" placeholder="Enter a letter">
+        <button onclick="submitGuess()">Guess</button>
+    </div>
+
+    <script src="javascript.js"></script>
+</body>
+
+</html>
